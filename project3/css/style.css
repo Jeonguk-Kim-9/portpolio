@@ -76,7 +76,8 @@ body{overflow-x: hidden; font-family: NotoSansKR-Regular;}
 .box2_right p{position: absolute; bottom: 1px; right: 1px; bottom: 45px; right: 24px;}
 
 
-#footer{width: 100%; height: 180px; background-color: #d9d9d9; color: #777777}
+#footer{width: 100%; height: 180px; background-color: #d9d9d9; color: #777777; position: relative}
+.footer_line{position: absolute; width: 100%; top: 62px; border-bottom: 1px solid #bfbfbf;}
 .footer_menu li{padding: 20px 65px 78px 0; float: left; font-weight: bold;}
 
 
