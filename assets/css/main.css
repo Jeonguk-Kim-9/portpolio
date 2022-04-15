@@ -4,18 +4,23 @@
 
 
 
-<!-- 김정욱 -->
+<!-- 수정 -->
 /* 공통 */
 .space{clear: both}
 ul, li{list-style: none;}
 
 /* 헤더 */
 .banner{position: relative}
+
+
     
 
 /* 메인이미지 */
-#mainimg{width: 100%; height: 528px;}
-.main_img{width: 1920px; height: 528px; background-image: url(../../images/mainimg.jpg); background-size: cover}
+#mainimg{width: 100%; height: 522px;}
+/* .main_img{width: 1920px; height: 528px; background-image: url(../../images/mainimg.jpg); background-size: cover; } */
+.main_img{width: 100%; height: 0; background-image: url(../../images/mainimg.jpg); padding-top:calc(528/1920 * 100%);
+	background-repeat: no-repeat; background-position: center center; background-size:cover;}
+
 
 /* 컨텐츠 */
 .contents_button li{float: left; padding-right: 20px}
@@ -32,6 +37,9 @@ ul, li{list-style: none;}
 					margin-top: 4px;} 
 .colorcircle_6{width: 30px; height: 30px; border-radius: 50%; background-color: #f6869c; margin-left: 9px;
 						margin-top: 4px;}
+
+
+
 
 
 
@@ -2837,8 +2845,10 @@ input, select, textarea {
 			margin-left: 0;
 		}
  */
+
+/* 수정 */
 			ul.actions.stacked li {
-				padding: 1.3rem 0 0 0;
+				padding: 0 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -4948,7 +4958,7 @@ input, select, textarea {
 		}
 /* 수정 */
 			.spotlight.style1 .image img {
-				margin: 0 auto; padding-top: 134px
+				margin: 0 auto; padding-top: 120px
 			}
 
 		@media screen and (max-width: 1680px) {
@@ -4991,6 +5001,7 @@ input, select, textarea {
 		}
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
+
 
 		.spotlight.style1 {
 			-moz-flex-direction: column-reverse;
@@ -8641,3 +8652,7 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+
+
+
